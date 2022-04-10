@@ -12,7 +12,6 @@ function Likes(props) {
 };
 
 function mapStateToProps(state) {
-    console.log(state)
     const { likes } = state.likesReducer;
     return {
         likes : likes
